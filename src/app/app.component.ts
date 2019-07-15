@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'noufalCV';
+
+  tstClick():void{
+    console.log("btn clcked!");
+  }
 }
